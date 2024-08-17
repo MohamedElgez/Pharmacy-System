@@ -1,0 +1,30 @@
+
+#login-container{  
+    overflow:hidden;
+      background-size:cover;
+      background-repeat: no-repeat;
+      background-image: url('../img/background.jpg');
+}
+#login-form-div{
+   
+    width: 500px;
+    background-color:RGB(3,20,12,0.5)
+   
+}
+#login-container-form{
+    display: flex;
+    flex-flow: column;
+    justify-content: center; 
+    align-items:center;
+    height:100vh;
+   
+}
+
+#form-btn{
+    background-color:RGB(3,20,12) ;
+    color: white;
+    padding:5px 10px ;
+    border: 0;
+    border-radius: 5px;
+    width: 100px;
+}

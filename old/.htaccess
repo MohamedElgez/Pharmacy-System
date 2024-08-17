@@ -1,0 +1,12 @@
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+RewriteRule ^public/ - [L]
+
+RewriteCond %{DOCUMENT_ROOT}/dist/$1 -f
+
+</IfModule>
+
+
+
